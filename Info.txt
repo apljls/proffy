@@ -1,0 +1,12 @@
+pra montar o WebServer
+npm install express 
+
+pra reiniciar o server sozinho qdo alterar arquivos
+npm install nodemom -D
+
+depois coloca em scripts no package.json 
+"dev": "nodemon src/server.js"
+
+
+
+"https://api.whatsapp.com/send:l=pt_BR&phone=55{{proffy.whatsapp}}&text=Tenho interesse na aula de {{proffy.subject}} com o prodessor {{proffy.name}}
